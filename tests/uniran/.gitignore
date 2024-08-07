@@ -1,0 +1,6 @@
+*.depend
+*.layout
+uniranDeviates.txt
+/bin
+/obj
+*.pdf
