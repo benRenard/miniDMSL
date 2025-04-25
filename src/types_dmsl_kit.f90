@@ -70,6 +70,9 @@ type data_ricz_type       ! the famous ricz structure that saved dmsl ...
   character(chlen_data_ricz)::cs2=undefCH
   character(chlen_data_ricz)::cs3=undefCH
   character(chlen_data_ricz)::cs4=undefCH
+  character(chlen_data_ricz)::cs5=undefCH
+  character(chlen_data_ricz)::cs6=undefCH
+  character(chlen_data_ricz)::cs7=undefCH
 ! 1D pointer components
   real(mrk),pointer::rsp1=>null()
   real(mrk),pointer::rsp2=>null()
@@ -99,7 +102,7 @@ type(data_ricz_type),parameter::data_ricz_def=data_ricz_type(&
   undefIN,undefIN,undefIN,undefIN,&       ! is
   undefLG,undefLG,undefLG,undefLG,&       ! ls
   undefCZ,undefCZ,undefCZ,undefCZ,&       ! zs
-  undefCH,undefCH,undefCH,undefCH,&       ! cs
+  undefCH,undefCH,undefCH,undefCH,undefCH,undefCH,undefCH,&       ! cs
   null(),null(),null(),null(),&           ! rsp
   null(),null(),null(),null(),null(),&    ! rp
   null(),&                                ! ip
